@@ -34,8 +34,8 @@ public class PlayerMovement : MonoBehaviour
         SceneManager.LoadScene("MainGames");
     }
 
-    private void OnBecameInvisible()
-    {
-        SceneManager.LoadScene("MainGames");
-    }
+    //private void OnBecameInvisible()
+    //{
+    //    SceneManager.LoadScene("MainGames");
+    //}
 }
