@@ -31,11 +31,11 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        SceneManager.LoadScene("MainGame");
+        SceneManager.LoadScene("MainGames");
     }
 
     private void OnBecameInvisible()
     {
-        SceneManager.LoadScene("MainGame");
+        SceneManager.LoadScene("MainGames");
     }
 }
